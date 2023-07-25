@@ -19,10 +19,11 @@ function Project({
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
-        {/* <div className="flex justify-between items-center mt-5"> */}
-        <div className="flex items-center">
+        <div className="flex justify-between items-center mt-5">
+        {/* <div className="flex items-center"> */}
           <svg
-            className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
+            // className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
+            className="stroke-dark-heading dark:stroke-white inline-block"
             width="20"
             height="20"
             viewBox="0 0 20 20"
@@ -53,7 +54,8 @@ function Project({
         </div>
         <div className="flex items-center">
           <svg
-            className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+            // className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+            className="dark:fill-light-heading fill-dark-heading inline-block"
             width="20"
             height="20"
             viewBox="0 0 20 20"
