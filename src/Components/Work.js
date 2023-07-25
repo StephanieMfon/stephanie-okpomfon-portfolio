@@ -11,8 +11,8 @@ function Work({ position, company, location, type, duration }) {
       </div>
       <div className="flex justify-between items-center pt-2">
       {/* <div className="items-center pt-2"> */}
-        <div className="flex flex-col md:flex-row pr-4">
-          {/* <div className="flex items-center"> */}
+        {/* <div className="flex flex-col md:flex-row pr-4"> */}
+          <div className="flex items-center">
             <svg
               // className="dark:fill-light-heading fill-dark-heading min-w-fit"
               className="dark:fill-light-heading fill-dark-heading"
