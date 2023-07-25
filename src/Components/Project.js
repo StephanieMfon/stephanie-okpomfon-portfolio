@@ -52,7 +52,7 @@ function Project({
             Live Preview
           </a>
         </div>
-        <div className="flex items-center">
+        <div className="flex justify-between items-center mt-5">
           <svg
             // className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
             className="dark:fill-light-heading fill-dark-heading inline-block"
