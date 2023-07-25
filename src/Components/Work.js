@@ -9,7 +9,7 @@ function Work({ position, company, location, type, duration }) {
           {type}
         </div>
       </div>
-      <div className="flex justify-between pt-2">
+      <div className="flex justify-between pt-2 items-center">
         <div className="flex flex-col md:flex-row">
           <div className="flex items-center pr-5">
             <svg

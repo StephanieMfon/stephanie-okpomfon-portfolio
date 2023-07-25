@@ -49,21 +49,14 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/stephanie-okpomfon/",
+  github: "https://github.com/StephanieMfon",
+  twitter: "https://twitter.com/Steph_Crispin",
+  instagram: "https://www.instagram.com/stephaniecrispin/",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
-  // {
-  //   Position: "Frontend Web Developer",
-  //   Company: `Company Name here`,
-  //   Location: "Bengaluru",
-  //   Type: "Full Time",
-  //   Duration: "Sep 2021 - Dec 2021",
-  // },
   {
     Position: "Internship",
     Company: `Stutern`,
@@ -71,13 +64,6 @@ export const workDetails = [
     Type: "Internship",
     Duration: "May 2023 - July 2023",
   },
-  // {
-  //   Position: "Internship",
-  //   Company: `Company Name here`,
-  //   Location: "Bengaluru",
-  //   Type: "Internship",
-  //   Duration: "Sep 2021 - Dec 2021",
-  // },
 ];
 
 // Enter your Education Details here
