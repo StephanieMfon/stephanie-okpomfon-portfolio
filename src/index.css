@@ -58,3 +58,24 @@ body::-webkit-scrollbar {
   opacity: 0.6;
 }
 
+/* Pdf Page */
+div.react-pdf__Page__annotations{
+  display:none;
+}
+
+button.download-button, button.resume-button{
+  background: #363636;
+  padding: 10px 10px;
+  transition: opacity 0.5s ease-in-out 0.1s;
+}
+ button.download-button:hover,button.resume-button:hover{
+  opacity: 0.6;
+}
+button:disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+canvas.react-pdf__Page__canvas{
+  width:1946px;
+}

@@ -61,7 +61,7 @@ function Header() {
           </li>
           <li className="navlink">
             <NavLink to="/contact" className="nav-item"  onClick={toggleClass}>
-              Contact
+              Resume
             </NavLink>
           </li>
         </ul>
