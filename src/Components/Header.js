@@ -60,7 +60,7 @@ function Header() {
             </NavLink>
           </li>
           <li className="navlink">
-            <NavLink to="/contact" className="nav-item"  onClick={toggleClass}>
+            <NavLink to="/resume" className="nav-item"  onClick={toggleClass}>
               Resume
             </NavLink>
           </li>

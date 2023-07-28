@@ -76,6 +76,12 @@ button:disabled {
   color: white;
   cursor: not-allowed;
 }
-canvas.react-pdf__Page__canvas{
-  width:1946px;
-}
+/* .pdf-page { */
+  /* Set the default width for small screens */
+  /* width: 100%; */
+
+/* @media screen and (min-width: 1024px) { */
+    /* Set the width for large screens */
+    /* width: 900px; */
+  /* } */
+/* } */

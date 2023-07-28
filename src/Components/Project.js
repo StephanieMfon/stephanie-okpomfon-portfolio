@@ -21,7 +21,7 @@ function Project({
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
         <div className="flex justify-between items-center mt-5">
-        {/* <div className="flex items-center"> */}
+        <div className="flex items-center">
           <svg
             // className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
             className="stroke-dark-heading dark:stroke-white inline-block"
@@ -53,7 +53,7 @@ function Project({
             Live Preview
           </a>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex items-center">
           <svg
             // className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
             className="dark:fill-light-heading fill-dark-heading inline-block"
@@ -79,7 +79,7 @@ function Project({
             View Code
           </a>
         </div>
-        {/* </div> */}
+        </div>
       </div>
     </article>
   );
