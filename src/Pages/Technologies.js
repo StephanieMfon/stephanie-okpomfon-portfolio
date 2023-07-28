@@ -39,10 +39,8 @@ function Technologies() {
         <img src={nodeJs} title="NodeJs" alt="" />
         <img src={firebase} title="Firebase" alt="" />
         <img src={mongoDb} title="MongoDb" alt="" />
-        <img src={aws} title="AWS" alt="" />
         <img src={react} title="React" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={sass} title="SASS" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

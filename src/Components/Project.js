@@ -9,9 +9,10 @@ function Project({
   githubLink,
 }) {
   return (
-    <article className="rounded-xl mt-10">
-      <img src={image} alt="" loading="lazy" />
-      <div className="dark:bg-dark-card p-4">
+    
+    <article className="rounded-xl mt-10 rounded-xl mt-10">
+      <img src={image} alt="" loading="lazy" className="rounded-t" />
+      <div className="dark:bg-dark-card p-4 rounded-b">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
           {title}
         </h1>

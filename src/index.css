@@ -34,19 +34,27 @@ body::-webkit-scrollbar {
   display: none;
   background: #000000;
 }
-.navlink {
-  transition: border-bottom 0.3s linear;
-  transition-delay: 0.1s;
-}
-.navlink:hover {
-  /* border-bottom: 5px double #d22f8e4d; */
-  border-bottom: 6px double transparent;
-  text-decoration-color: #c026d3;
-  text-decoration-thickness: 7px;
-}
+
+/* custom styles */
+
 .technologies img {
   width: 2.5em;
 }
 .tools img {
   width: 2.5em;
 }
+.nav-item{
+  transition-property: background-color;
+
+}
+.active{
+  background:rgb(102, 127, 226);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+.nav-item:hover{
+  opacity: 0.6;
+}
+

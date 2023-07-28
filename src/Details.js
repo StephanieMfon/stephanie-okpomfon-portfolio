@@ -101,7 +101,7 @@ export const techStackDetails = {
   nodeJs: nodeJs,
   mongoDb: mongoDb,
   firebase: firebase,
-  aws: aws,
+  // aws: aws,
 };
 
 // Enter your Project Details here
@@ -109,7 +109,7 @@ export const projectDetails = [
   {
     title: "Omega, Application",
     image: projectImage1,
-    description: `This is a full-stack application implemented with the MVC backend architecture.It implements machine learning for evaluating and predicting the eligibility of loan applicants.`,
+    description: `This is a full-stack application implemented with the MVC architecture. It utilises machine learning for predicting the eligibility of loan applicants.`,
     techstack: "React, Node.js, Mongo.db, Socket.io, AWS, JWT",
     previewLink: "https://omega-prediction-app.netlify.app/",
     githubLink:
@@ -126,7 +126,7 @@ export const projectDetails = [
   {
     title: "Udemy-clone, Web-development",
     image: projectImage3,
-    description: `This is a clone of Udemy's Landing Page`,
+    description: `This is a clone of Udemy's Landing Page. It shows a detailed representation of each section`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://module-6-clone-assignment.netlify.app/",
     githubLink: "https://github.com",
@@ -152,7 +152,7 @@ export const projectDetails = [
     image: projectImage6,
     description: `This is a clone of Netflix's Landing Page`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://netflix-landingpage-cloneapp.netlify.app/",
+    previewLink: "https://project1-cloneapp.netlify.app/",
     githubLink: "https://github.com/StephanieMfon/NETFLIX-LANDING-PAGE",
   },
 ];

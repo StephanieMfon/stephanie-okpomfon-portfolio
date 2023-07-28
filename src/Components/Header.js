@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
@@ -12,9 +12,9 @@ function Header() {
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
-        <NavLink to="/">
+        <Link  to="/">
           <img className="w-24" src={logos.logogradient} alt="logo" />
-        </NavLink>
+        </Link>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
             className="stroke-dark-heading dark:stroke-white md:hidden"
@@ -40,27 +40,27 @@ function Header() {
       >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0 navlink">
-            <NavLink to="/" onClick={toggleClass}>
+            <NavLink to="/" className="nav-item" onClick={toggleClass}>
               Home
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0 navlink">
-            <NavLink to="/about" onClick={toggleClass}>
+            <NavLink to="/about" className="nav-item"   onClick={toggleClass}>
               About
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0 navlink">
-            <NavLink to="/technologies" onClick={toggleClass}>
+            <NavLink to="/technologies" className="nav-item"  onClick={toggleClass}>
               Technologies
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0 navlink">
-            <NavLink to="/projects" onClick={toggleClass}>
+            <NavLink to="/projects" className="nav-item"  onClick={toggleClass}>
               Projects
             </NavLink>
           </li>
           <li className="navlink">
-            <NavLink to="/contact" onClick={toggleClass}>
+            <NavLink to="/contact" className="nav-item"  onClick={toggleClass}>
               Contact
             </NavLink>
           </li>
