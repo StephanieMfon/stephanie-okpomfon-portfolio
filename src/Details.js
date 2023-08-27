@@ -14,13 +14,13 @@ import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
-import github from "./assets/techstack/github.png";
+import github from "./assets/techstack/github-light-2.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-import nodeJs from "./assets/techstack/Node.js_logo.svg";
-import mongoDb from "./assets/techstack/mongodb.png";
+import nodeJs from "./assets/techstack/node-js-light.svg";
+import mongoDb from "./assets/techstack/mongo2.png";
 import firebase from "./assets/techstack/firebase.png";
 import typescript from "./assets/techstack/typescript-icon.png";
 import nextjs from "./assets/techstack/nextjs-icon.png";
@@ -163,7 +163,7 @@ export const projectDetails = [
 export const otherNotableProjectDetails = [
 	{
 		title: "URL shortener app",
-		description: `TBuilt a simple URL shortener app that allows users to create customised shorter URL's for personal use.    `,
+		description: `Built a simple URL shortener API that allows users to create customised shorter URL's for personal use.    `,
 		techstack: "Typescript , Docker, AWS",
 		previewLink: "https://github.com/StephanieMfon/URL-shortener",
 		githubLink: "https://github.com/StephanieMfon/URL-shortener",
