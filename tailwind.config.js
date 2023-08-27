@@ -1,24 +1,24 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "class",
-  theme: {
-    extend: {
-      fontFamily: {
-        primary: "Poppins, sans-serif",
-      },
-      colors: {
-        "light-content": "#A7A7A7",
-        "dark-heading": "#1f2428",
-        "dark-content": "#666666",
-        "light-heading": "#CCCCCC",
-        "dark-mode": "#191919",
-        "dark-card": "#363636",
-        "green-text": "#018C0F",
-        greenbg: "#D7FFE0",
-        " --bg-color": "#1f2937",
-        "--text-color": "#f8fafc",
-      },
-    },
-  },
-  plugins: [],
+	content: ["./src/**/*.{js,jsx,ts,tsx}"],
+	darkMode: "class",
+	theme: {
+		extend: {
+			fontFamily: {
+				primary: "Poppins, sans-serif",
+			},
+			colors: {
+				"light-content": "#A7A7A7",
+				"dark-heading": "#1f2428",
+				"dark-content": "#000000",
+				"light-heading": "#CCCCCC",
+				"dark-mode": "#191919",
+				"dark-card": "#363636",
+				"green-text": "#018C0F",
+				greenbg: "#D7FFE0",
+				" --bg-color": "#1f2937",
+				"--text-color": "#f8fafc",
+			},
+		},
+	},
+	plugins: [],
 };
