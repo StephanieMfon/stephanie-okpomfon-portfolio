@@ -44,8 +44,8 @@ export const personalDetails = {
 	name: "Pavan MG",
 	tagline: "Web Developer",
 	img: profile,
-	about: `Hello, I'm Stephanie C. Okpo-mfon, a passionate female backend developer on a mission to make a positive impact in the tech industry. With a strong enthusiasm for growth and a desire to see more women thrive in the tech workspace, I'm dedicated to breaking down barriers and inspiring others to pursue their passions.
-  As a backend developer, I love diving into the intricate workings of systems and crafting robust, scalable solutions. I find joy in tackling complex problems, architecting efficient code, and optimizing performance. Building reliable and secure backend infrastructure is not just a job for me; it's a creative outlet that allows me to bring ideas to life and contribute to meaningful projects.`,
+	about: `Hello, I'm Stephanie C. Okpo-mfon, a passionate web developer on a mission to make a positive impact in the tech industry. With a strong enthusiasm for growth and a desire to see more women thrive in the tech workspace, I'm dedicated to breaking down barriers and inspiring others to pursue their passions.
+  As a web developer, I love diving into the intricate workings of systems and crafting robust, scalable solutions. I find joy in tackling complex problems, architecting efficient code, and optimizing performance. Building reliable and secure code infrastructure is not just a job for me; it's a creative outlet that allows me to bring ideas to life and contribute to meaningful projects.`,
 };
 
 // Enter your Social Media URLs here
