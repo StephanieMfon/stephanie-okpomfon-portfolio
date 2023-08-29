@@ -25,15 +25,18 @@ function About() {
 					Work Experience
 				</h1>
 				{React.Children.toArray(
-					workDetails.map(({ Position, Company, Location, Type, Duration }) => (
-						<Work
-							position={Position}
-							company={Company}
-							location={Location}
-							type={Type}
-							duration={Duration}
-						/>
-					))
+					workDetails.map(
+						({ Position, Company, Location, Type, Duration, Hyperlink }) => (
+							<Work
+								position={Position}
+								company={Company}
+								location={Location}
+								type={Type}
+								duration={Duration}
+								hyperlink={Hyperlink}
+							/>
+						)
+					)
 				)}
 			</section>
 			<section data-aos="fade-up" data-aos-once="true">

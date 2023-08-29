@@ -64,13 +64,22 @@ export const workDetails = [
 		Location: "Nigeria",
 		Type: "Internship",
 		Duration: "May 2023 - July 2023",
+		Hyperlink: "https://www.stutern.com/",
+	},
+	{
+		Position: "Software Developer",
+		Company: `Barnmd.org`,
+		Location: "Nigeria",
+		Type: "Employee",
+		Duration: "June 2023 - Present",
+		Hyperlink: "https://barnmd.org/",
 	},
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
 	{
-		Position: "Backend Development",
+		Position: "Software Development",
 		Company: "Stutern",
 		Location: "Online",
 		Type: "Full Time",
