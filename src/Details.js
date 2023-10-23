@@ -59,6 +59,14 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
 	{
+		Position: "FullStack Developer",
+		Company: `KemdiAttire`,
+		Location: "Nigeria",
+		Type: "Employee",
+		Duration: "September 2023",
+		Hyperlink: "https://kemdiattire.com/",
+	},
+	{
 		Position: "Internship",
 		Company: `Stutern`,
 		Location: "Nigeria",
@@ -71,8 +79,8 @@ export const workDetails = [
 		Company: `Barnmd.org`,
 		Location: "Nigeria",
 		Type: "Employee",
-		Duration: "June 2023 - Present",
-		Hyperlink: "https://barnmd.org/",
+		Duration: "Jul 2022 - September 2023",
+		Hyperlink: "https://staging.d2k6wp25z5a2c6.amplifyapp.com/auth/login",
 	},
 ];
 
